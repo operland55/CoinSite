@@ -93,7 +93,7 @@ function Price({ coinId }: MoneyProps) {
       </Main>
       <Main>
         <H3>Change rate (last 24 hours):</H3>
-        <H2>{data?.quotes.USD.percent_change_24h} %</H2>
+        <H2>{data?.quotes.USD.percent_change_24h}%</H2>
       </Main>
     </div>
   )
